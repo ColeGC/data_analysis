@@ -21,7 +21,7 @@ when you have a few large numbers
 ### Min-max scaling
 
 $$
-x_i' = \frac{x_i - x_{max}}{x_{max} - x_{min}}
+x_i' = \frac{x_i - x_{min}}{x_{max} - x_{min}}
 $$
 
 dependent on the min and max values, which makes it sensitive to outliers.
